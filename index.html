@@ -1,54 +1,63 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>OIAPOQUE TURISMO</title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+	<title>Oiapoque Turismo</title>
   
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="wrapper" >
+  <div class="container" >
           <header id="top" >
-            <nav class="menu">
-              <ul>
-                <li><a href="#">Home</a></li>
-              </ul>
-            </nav>
+              <div class= "navbar navbar-fixed-top">
+                    <nav class="navbar-inner">
+                      <a class="brand"  href="#">Oiapoque Tur</a>
+                      <ul class="nav">
+                        <li class="active"><a href="#">Inicio</a></li>
+                        <li><a href="#">Historico</a></li>
+                        <li><a href="#">Turismo</a></li>
+                        <li><a href="#">Galeria</a></li>
+                      </ul>
+                      <form class="navbar-search pull-left">
+                        <input type="text" class="search-query" placeholder="Busca">
+                      </form>        
+                    </nav>         
+
+              </div>            
           </header>
-        
-        <div class="main">
-          <article>
-          <h1>Oiapoque</h1>
-          <div class="texto"></div>
-          <p>
-            Durante o período colonial, Oiapoque era parte da Capitania do Cabo Norte. Nos primórdios do século XVI, os portugueses da América travam lutas com outros europeus, para estabelecer domínio territorial ao sul do rio Oiapoque - na época conhecido como rio de Vicente Pinzón - e ao norte do rio Amazonas, para expandir os impérios colonizadores que cada grupo representava.
-            Os primitivos habitantes da região são antepassados dos povos Waiãpi, que ocupavam a extensão territorial do rio Oiapoque; dos Galibi e Palikur, concentrados no vale do rio Uaçá e seus afluentes. A palavra Oiapoque tem origem tupi-guarany, sendo uma derivação do termo "oiap-oca", que significa "casa dos Waiãpi".
-          </p>
-            <p>O município de Oiapoque originou-se da morada de um mestiço, em data que não se pode precisar, de nome Emile Martinic, o primeiro habitante não-índio do município. Sabe-se que a localidade passou a ser conhecida como "Martinica"; e, ainda hoje, não é raro ouvir essa designação, notadamente de habitantes mais antigos. Em 1907, o Governo Federal criou o Primeiro Destacamento Militar do município, que servia de abrigo a presos políticos. Alguns anos depois, esse destacamento foi transferido para Santo Antônio, atual distrito de Clevelândia do Norte, com a denominação de Colônia Militar. Para consolidar a soberania nacional sobre as áreas limítrofes, face ao contestado franco-brasileiro, foi, então, erguido um monumento à pátria, indicativo do marco inicial do território brasileiro.
-
-            O município foi criado em 23 de maio de 1945, através da lei 7578.</p>
-            
-          </article>
-
-        </div>
-          <footer id="footer">
-          <div class="container">
-            <h4><a href="#" class="site">Five Food</a> é uma obra fictícia criada para fins didáticos.</h4>
-            <nav class="menu">
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Novidades</a></li>
-                <li><a href="#">Categorias</a></li>
-                <li><a href="#">Arquivo</a></li>
-                <li><a href="#">Sobre</a></li>
-              </ul>
-            </nav>
-            <p class="follow">Siga-nos no <a href="#">Twitter</a> e <a href="#">Facebook</a></p>
+          <div class="row">
+            <div class="span 12">
+              <img src="img/ponte.JPG" class="img-polaroid">
             </div>
+          </div>
+
+          <div class="row">
+                <div class="span4">
+                  <p>Mapa do Municipio </p>
+                  <img src="img/navbar" class="img-polaroid">
+                </div>
+                <div class="span8">
+                  <h1>Aqui começa o brasil</h1>
+
+                  <p>
+                    Oiapoque é um município brasileiro localizado no extremo norte do estado do Amapá. Sua área é de 22,625 km²; e sua população, de acordo com as estimativas do Instituto Brasileiro de Geografia e Estatística (IBGE) em 2014, era de 23 628 habitantes.
+                  </p>
+                </div>
+       
+        <footer id="footer">          
+          <div class="container">
+                <p class="pull-right"><a href="#">Voltar ao topo</a></p>  
+                <p> Este projeto foi desenvolvido por Eziquiel Da luz Silva.</p>
+               
+          </div>
+            
         </footer>
-    
+        
   </div>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
 </body>
 	
 </html>

@@ -288,7 +288,10 @@ a:hover {
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
-  width: 940px;
+width: 940px;
+margin: 0 auto;
+
+
 }
 
 .span12 {
@@ -648,7 +651,7 @@ a:hover {
 }
 
 p {
-  margin: 0 0 10px;
+  margin: 10 10 10px;
 }
 
 .lead {
@@ -4434,9 +4437,9 @@ input[type="submit"].btn.btn-mini {
 .navbar-fixed-bottom .navbar-inner {
   padding-right: 0;
   padding-left: 0;
-  -webkit-border-radius: 0;
-     -moz-border-radius: 0;
-          border-radius: 0;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
 }
 
 .navbar-static-top .container,
