@@ -289,7 +289,7 @@ a:hover {
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
 width: 940px;
-margin: 0 auto;
+margin-bottom:100px ;
 
 
 }
@@ -4295,10 +4295,10 @@ input[type="submit"].btn.btn-mini {
   display: block;
   float: left;
   padding: 10px 20px 10px;
-  margin-left: -20px;
+  margin-left: 70px;
   font-size: 20px;
   font-weight: 200;
-  color: #777777;
+  color: #050505;
   text-shadow: 0 1px 0 #ffffff;
 }
 
@@ -4437,9 +4437,9 @@ input[type="submit"].btn.btn-mini {
 .navbar-fixed-bottom .navbar-inner {
   padding-right: 0;
   padding-left: 0;
-  -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-          border-radius: 5px;
+  -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+          border-radius: 15px;
 }
 
 .navbar-static-top .container,

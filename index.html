@@ -5,18 +5,19 @@
 	<title>Oiapoque Turismo</title>
   
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/animation.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <div class="container" >
           <header id="top" >
-              <div class= "navbar navbar-fixed-top">
+              <div class= "navbar navbar-inverse navbar-fixed-top">
                     <nav class="navbar-inner">
-                      <a class="brand"  href="#">Oiapoque Tur</a>
+                      <a class="brand"  href="#">  Oiapoque Tour</a>
                       <ul class="nav">
                         <li class="active"><a href="#">Inicio</a></li>
-                        <li><a href="#">Historico</a></li>
-                        <li><a href="#">Turismo</a></li>
+                        <li><a href="Historico.html">Historico</a></li>
+                        <li><a href="turismo.html">Turismo</a></li>
                         <li><a href="#">Galeria</a></li>
                       </ul>
                       <form class="navbar-search pull-left">
@@ -26,13 +27,21 @@
 
               </div>            
           </header>
-          <div class="row">
-            <div class="span 12">
-              <img src="img/ponte.JPG" class="img-polaroid">
+         <div id="content-slider">
+          <div id="slider">
+            <div id="mask">
+              <ul>
+                <li id="first" class="firstanimation"><a href="#"><img src="img/photo-1.jpg" alt="Cougar"> <p>ponte estaiada sobre o rio Oiapoque</p></a></li>
+                <li id="second" class="secondanimation"><a href="#"><img src="img/photo-2.jpg" alt="Lions"></a></li>
+                <li id="third" class="thirdanimation"><a href="#"><img src="img/photo-3.jpg" alt="Snowalker"></a></li>
+                <li id="fourth" class="fourthanimation"><a href="#"><img src="img/photo-4.jpg" alt="Howling"></a></li>
+                <li id="fifth" class="fifthanimation"><a href="#"><img src="img/photo-5.jpg" alt="Sunbathing"></a></li>
+              </ul>
             </div>
           </div>
+        </div>
 
-          <div class="row">
+          <div class="row-fluid">
                 <div class="span4">
                   <p>Mapa do Municipio </p>
                   <img src="img/navbar" class="img-polaroid">

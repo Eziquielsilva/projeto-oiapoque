@@ -1,25 +1,77 @@
-body {
-  font:15px/1.3 Helvetica, Helvetica Neue, Arial, sans-serif;
- 
-  padding:5;
-  color:#44459;
-  font-size: 15px;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana,
-  sans-serif;
-  line-height: 1.6;
-   
+#top {
+  margin-top: 60px;
 }
-a {
-  color:#dc4368;
+.logo{
+  margin-top:-40px; 
+  width: 136px;
+  height: 95px;
 }
-a:visited {
-  color:#e0829b;
+/* Slider */
+#content-slider {
+  width: 460px;
+  height: 316px;
+  float: right;
+  border: 3px solid rgba(0, 0, 0, 0.3);
+  margin-top: 50px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0 87px 30px -85px rgba(0, 0, 0, 0.7);
+     -moz-box-shadow: 0 87px 30px -85px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 87px 30px -85px rgba(0, 0, 0, 0.7);
 }
-code {
-  background:#daeaea;
-  padding:1px;
+#slider {
+  background: #000;
+  height: 316px;
+  width: 460px;
+  overflow: visible;
+  position: relative;
 }
-
+#mask {
+  overflow: hidden;
+  height: 316px;
+}
+#slider ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#slider li {
+  width: 460px;
+  height: 316px;
+  position: absolute;
+  top: -321px;
+  list-style: none;
+}
+#slider li.firstanimation {
+  -moz-animation:cycle 25s linear infinite;
+  -webkit-animation:cycle 25s linear infinite; 
+}
+#slider li.secondanimation {
+  -moz-animation:cycletwo 25s linear infinite;
+  -webkit-animation:cycletwo 25s linear infinite; 
+}
+#slider li.thirdanimation {
+  -moz-animation:cyclethree 25s linear infinite;
+  -webkit-animation:cyclethree 25s linear infinite; 
+}
+#slider li.fourthanimation {
+  -moz-animation:cyclefour 25s linear infinite;
+  -webkit-animation:cyclefour 25s linear infinite; 
+}
+#slider li.fifthanimation {
+  -moz-animation:cyclefive 25s linear infinite;
+  -webkit-animation:cyclefive 25s linear infinite; 
+}
+#slider:hover li {
+  -moz-animation-play-state:paused;
+  -webkit-animation-play-state:paused;
+}
+article section{
+  text-align: justify;
+}
+article h1{
+background-color: #7C0000;
+color: #000;
+}
 #footer {
   background:url("../img/bg-footer.gif") repeat-x;
   padding:0;
@@ -28,6 +80,10 @@ code {
   margin-top:40px;
   width:100%;
   clear:both;
+}
+.pull-right{
+  float: right;
+  padding-right: 20px;
 }
 #footer .container {
   margin-top: 70px;
@@ -47,7 +103,7 @@ code {
   text-align:right;
 }
 #footer .menu {
-  margin-top:5px;
+  margin-top:80px;
 }
 #footer .menu a {
   padding:6px;

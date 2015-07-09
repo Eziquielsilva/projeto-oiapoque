@@ -1,2 +1,5 @@
-Projeto para a Disciplinas de PIWEB, e uma forma de Tcc para o fim do curso de Tecnologo em Sistema para internet.
+Este projeto faz parte da conclusão do Curso de Sistema de informação
+de Eziquiel Da luz Silva.
 
+esta na faze de desenvolvimento da pagina,
+recholhendo informações.
