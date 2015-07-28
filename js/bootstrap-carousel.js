@@ -16,7 +16,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  * ========================================================== */
-
+$('.carousel').carousel({
+  interval: 2000})
 
 !function ($) {
 

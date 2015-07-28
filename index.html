@@ -1,13 +1,12 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
 	<title>Oiapoque Turismo</title>
   
   <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/animation.css">
   <link rel="stylesheet" href="css/style.css">
-</head>
+  </head>
 <body>
   <div class="container" >
           <header id="top" >
@@ -15,55 +14,66 @@
                     <nav class="navbar-inner">
                       <a class="brand"  href="#">  Oiapoque Tour</a>
                       <ul class="nav">
-                        <li class="active"><a href="#">Inicio</a></li>
+                        <li class="active"><a href="index.html"><i class="icon-home" ></i></a></li>
                         <li><a href="Historico.html">Historico</a></li>
                         <li><a href="turismo.html">Turismo</a></li>
-                        <li><a href="#">Galeria</a></li>
+                        <li><a href="Galeria.html">Galeria</a></li>
                       </ul>
                       <form class="navbar-search pull-left">
                         <input type="text" class="search-query" placeholder="Busca">
                       </form>        
                     </nav>         
-
+                  
               </div>            
           </header>
-         <div id="content-slider">
-          <div id="slider">
-            <div id="mask">
-              <ul>
-                <li id="first" class="firstanimation"><a href="#"><img src="img/photo-1.jpg" alt="Cougar"> <p>ponte estaiada sobre o rio Oiapoque</p></a></li>
-                <li id="second" class="secondanimation"><a href="#"><img src="img/photo-2.jpg" alt="Lions"></a></li>
-                <li id="third" class="thirdanimation"><a href="#"><img src="img/photo-3.jpg" alt="Snowalker"></a></li>
-                <li id="fourth" class="fourthanimation"><a href="#"><img src="img/photo-4.jpg" alt="Howling"></a></li>
-                <li id="fifth" class="fifthanimation"><a href="#"><img src="img/photo-5.jpg" alt="Sunbathing"></a></li>
-              </ul>
+                  
+         <div id="content-slider" class="span7 hidden-phone">
+            <div id="slider">
+              <div id="mask">
+                <ul>
+                  <li id="first" class="firstanimation"><a href="#"><img src="img/photo-1.jpg" alt="Cougar"></a></li>
+                  <li id="second" class="secondanimation"><a href="#"><img src="img/photo-2.jpg" alt="Lions"></a></li>
+                  <li id="third" class="thirdanimation"><a href="#"><img src="img/photo-3.jpg" alt="Snowalker"></a></li>
+                  <li id="fourth" class="fourthanimation"><a href="#"><img src="img/photo-4.jpg" alt="Howling"></a></li>
+                  <li id="fifth" class="fifthanimation"><a href="#"><img src="img/photo-5.jpg" alt="Sunbathing"></a></li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
+      
 
           <div class="row-fluid">
-                <div class="span4">
-                  <p>Mapa do Municipio </p>
-                  <img src="img/navbar" class="img-polaroid">
+                <div class="span4" >
+                  
+                  <img src="img/navbar" class="img-polaroid" id="mapa">
+                  <figcaption>
+                    Localização do municipio    
+                  </figcaption>
                 </div>
-                <div class="span8">
-                  <h1>Aqui começa o brasil</h1>
+          </div>
+                              
+              <div class="row-fluid texto">
+                <div class="span10">
 
-                  <p>
+                  <h1>Seja Bem Vindo Ao Oiapoque !</h1>
+
+                  <p id="textprin">
                     Oiapoque é um município brasileiro localizado no extremo norte do estado do Amapá. Sua área é de 22,625 km²; e sua população, de acordo com as estimativas do Instituto Brasileiro de Geografia e Estatística (IBGE) em 2014, era de 23 628 habitantes.
                   </p>
+                  <h1>Venha conhecer Oiapoque de um jeito diferente !</h1>
+                    <p id="textprin">Em nosso município existe riquezas naturais e varios pontos turisticos que você pode conhecer, tanto na area urbana quanto na area rural.</p>
                 </div>
-       
-        <footer id="footer">          
-          <div class="container">
-                <p class="pull-right"><a href="#">Voltar ao topo</a></p>  
-                <p> Este projeto foi desenvolvido por Eziquiel Da luz Silva.</p>
-               
-          </div>
-            
-        </footer>
-        
-  </div>
+              </div>
+    </div>
+    <footer class="footer">
+      <div id="footer">
+        <div class="container">
+          <p class="pull-right"><a href="#">Voltar ao topo</a></p>  
+                <h3>Este projeto foi desenvolvido por Eziquiel Da luz Silva</h3>
+        </div>
+      </div>
+    </footer>
+    
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap-carousel.js"></script>

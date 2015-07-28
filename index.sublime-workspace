@@ -1,0 +1,492 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bo",
+				"both"
+			],
+			[
+				"boder",
+				"border"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"FON",
+				"font-size"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"src",
+				"source	<source>"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"ima",
+				"background-image"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"bAC",
+				"background-image"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"colo",
+				"color-stop"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"ti",
+				"title	<title>"
+			],
+			[
+				"php",
+				"php_uname"
+			],
+			[
+				"i",
+				"Id"
+			],
+			[
+				"I",
+				"Id"
+			],
+			[
+				"d",
+				"DADOS"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"bas",
+				"border-image-source"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"btn",
+				"button	<button>"
+			],
+			[
+				"p",
+				"println"
+			],
+			[
+				"po",
+				"potencia"
+			],
+			[
+				"pt",
+				"pt-BR"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"css",
+				"Snippet: cssreset"
+			],
+			[
+				"open",
+				"Preferences: OpenFolder Settings - User"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"snippets",
+				"Snippet: HTML - Script"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Add Channel"
+			],
+			[
+				"INStall",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Advanced Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 232.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib2,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib2,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') ",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp-sublime.installed_packages_path(); os.makedirs(ipp) ifnot os.path.exist(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler()));open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restar Sublime Text to finish installation'",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp-sublime.installed_packages_path(); os.makedirs(ipp) if",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp-sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exist(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler()));open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restar Sublime Text to finish installation'",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp-sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exist(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler()));"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/zick/projeto_oiapoque/arquivos/teste.html",
+		"/home/zick/projeto/projeto-oipoque",
+		"/home/zick/projeto/projeto-oiapoque/index.html",
+		"/home/zick/projeto_oiapoque/arquivos/css/styles1.css",
+		"/home/zick/projeto/projeto-oiapoque/css/bootstrap.css",
+		"/home/zick/projeto/projeto-oiapoque/css/styler.css",
+		"/home/zick/projeto/projeto-oiapoque/css/style.css",
+		"/home/zick/projeto/projeto-oiapoque/turismo.html",
+		"/home/zick/projeto_oiapoque/arquivos/index1.html",
+		"/home/zick/projeto/projeto-oiapoque/Galeria.html",
+		"/home/zick/projeto/Bootstrap HTML5 Responsive Templates/business-casual/index.html",
+		"/home/zick/projeto/projeto-oiapoque/Novidade.html",
+		"/home/zick/projeto/projeto-oiapoque/Historico.html",
+		"/home/zick/Dropbox/bootstrap/components.html",
+		"/media/zick/Desenvolvimento/Bootstrap HTML5 Responsive Templates/business-casual/index.html",
+		"/etc/bash.bashrc",
+		"/home/zick/projeto/projeto-oiapoque/README.txt~",
+		"/media/DADOS/Tecnologo Em Sistema Para Internet/Material vídeo aula/MATERIAL ESTUDO PARA PROJETO OIAPOQUE/HTML5 & CSS3/Aula 3/arquivos/index1.html",
+		"/media/DADOS/Tecnologo Em Sistema Para Internet/Material vídeo aula/MATERIAL ESTUDO PARA PROJETO OIAPOQUE/HTML5 & CSS3/Aula 3/arquivos/css/styles1.css",
+		"/home/zick/projeto_oiapoque/teste/teste1.html",
+		"/home/zick/projeto/initializr/index.html",
+		"/media/zick/Desenvolvimento/Bootstrap HTML5 Responsive Templates/xeon/css/bootstrap.min.css",
+		"/home/zick/index.html",
+		"/home/zick/projeto_oiapoque/buttons/css/exercicio.css",
+		"/home/zick/projeto_oiapoque/buttons/teste.html",
+		"/home/zick/projeto_oiapoque/arquivos/css/style.css",
+		"/home/zick/Dropbox/bootstrap/index.html",
+		"/home/zick/projeto/initializr/css/bootstrap-theme.css",
+		"/media/zick/Desenvolvimento/initializr/index.html",
+		"/home/zick/projeto_oiapoque/buttons/css/solucao.css",
+		"/home/zick/projeto_oiapoque/arquivos/receita.html",
+		"/home/zick/projeto/initializr/css/bootstrap-theme.min.css",
+		"/home/zick/bootstrap/index1.html",
+		"/home/zick/Dropbox/bootstrap/base-css.html",
+		"/home/zick/bootstrap/css/bootstrap.css",
+		"/home/zick/bootstrap/index.html",
+		"/media/ANA/criação/Conhecendo Jesus_ Jogral sobre a Hist__ria da Cria____o.html",
+		"/media/DADOS/Tecnologo Em Sistema Para Internet/Material vídeo aula/MATERIAL ESTUDO PARA PROJETO OIAPOQUE/HTML5 & CSS3/Aula 3/exercicio/css/solucao.css",
+		"/media/DADOS/Tecnologo Em Sistema Para Internet/Material vídeo aula/MATERIAL ESTUDO PARA PROJETO OIAPOQUE/HTML5 & CSS3/Aula 3/exercicio/solucao.html",
+		"/media/DADOS/Tecnologo Em Sistema Para Internet/Material vídeo aula/MATERIAL ESTUDO PARA PROJETO OIAPOQUE/HTML5 & CSS3/Aula 3/exercicio/teste.html",
+		"/media/DADOS/arquivos/css/style.css",
+		"/home/zick/projeto/Oiapoque/css/styler.css",
+		"/home/zick/projeto_oiapoque/buttons/button.html",
+		"/media/DADOS/Tecnologo Em Sistema Para Internet/Material vídeo aula/MATERIAL ESTUDO PARA PROJETO OIAPOQUE/HTML5 & CSS3/Aula 2/arquivos/css/transform_transition.css",
+		"/media/DADOS/Tecnologo Em Sistema Para Internet/Material vídeo aula/MATERIAL ESTUDO PARA PROJETO OIAPOQUE/HTML5 & CSS3/Aula 2/arquivos/transform_transition.html",
+		"/media/DADOS/Tecnologo Em Sistema Para Internet/Material vídeo aula/MATERIAL ESTUDO PARA PROJETO OIAPOQUE/HTML5 & CSS3/Aula 2/arquivos/css/bg_multiple.css",
+		"/home/zick/projeto_oiapoque/arquivos/receita (cópia).html",
+		"/home/zick/Documentos/banco de dados/A primeira relação sexual após o parto - Bebê.com.br.html",
+		"/media/DADOS/BACHAREL EM DIREITO/2ºsemestre/Linguagem Juridica/PETIÇÃO PRONTAS/energia sumula 83.htm",
+		"/media/DADOS/APASTA MATERIAL DE ESTUDO SISTEMA PARA INTERNET/Material vídeo aula/MATERIAL ESTUDO PARA PROJETO OIAPOQUE/HTML5 & CSS3/Aula 3/exercicio/solucao.html",
+		"/media/DADOS/APASTA MATERIAL DE ESTUDO SISTEMA PARA INTERNET/Material vídeo aula/MATERIAL ESTUDO PARA PROJETO OIAPOQUE/Git/dia1/roteiro.txt",
+		"/home/zick/projeto/Oiapoque/w",
+		"/home/zick/projeto/Oiapoque/.git/COMMIT_EDITMSG",
+		"/home/zick/projeto/Oiapoque/index.html",
+		"/home/zick/projeto/Oiapoque/README.txt",
+		"/home/zick/Dropbox/Web Design e Programação Unisul/PIWEB 1/zick/TABELA DE ETAPA PIWEB.html",
+		"/home/zick/Dropbox/bootstrap/javascript.html",
+		"/home/zick/Dropbox/bootstrap/customize.html",
+		"/home/zick/Dropbox/bootstrap/scaffolding.html",
+		"/home/zick/Dropbox/bootstrap/getting-started.html",
+		"/home/zick/Dropbox/bootstrap/Globo.com Bootstrap.html",
+		"/home/zick/projeto/softpbx/templates/base/base.html",
+		"/home/zick/projeto_oiapoque/git/local/projeto/css/styler.css",
+		"/home/zick/.conky/NSA_Conky/NSA",
+		"/home/zick/.conky/NSA_Conky/conkyrc_NSA",
+		"/home/zick/projeto_oiapoque/git/local/.gitignore",
+		"/home/zick/loja.sql",
+		"/home/zick/Documentos/sql/banco1.sql",
+		"/opt/lampp/htdocs/loja/index.php",
+		"/home/zick/biblioteca.sql",
+		"/home/zick/banco.sql",
+		"/home/zick/projeto_oiapoque/git/local/projeto/Novidades.html",
+		"/home/zick/projeto_oiapoque/git/local/projeto/novidades.html",
+		"/home/zick/Documentos/banco de dados/conexao/Criando classe Java para conectar e manipular dados no MySQL [Artigo] - página 2.html",
+		"/home/zick/projeto_oiapoque/git/local/projeto/index.html",
+		"/media/DADOS/unisul/4 semestre/LP2/GuiVendas(1).java",
+		"/media/DADOS/unisul/4 semestre/POO/CursoWebUnisul/CURSOWEB-LP2/GuiJLabel.java",
+		"/home/zick/CursoWeb2015/helloword.java",
+		"/media/zick/Data.java",
+		"/home/zick/projeto_oiapoque/git/local/index.html",
+		"/home/zick/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/zick/projeto_oiapoque/html5/index.html",
+		"/home/zick/projeto_oiapoque/html5/css/styler.css",
+		"/home/zick/projeto_oiapoque/html5/html5.html",
+		"/home/zick/bootstrap/css/style.css",
+		"/home/zick/.config/sublime-text-3/Packages/User/OpenFolder.sublime-settings",
+		"/home/zick/CursoWeb2015/potencia.java",
+		"/media/zick/netbeans-8.0.2-linux.sh",
+		"/home/zick/.config/sublime-text-2/Packages/Emmet/emmet/snippets.json",
+		"/home/zick/.config/sublime-text-3/Packages/Emmet Css Snippets/messages.json",
+		"/home/zick/Documentos/Sublime Text 2/hacker-evolution",
+		"/media/DADOS/zick/zick/Documentos/heuntold-demo-2.2-rc3-5-g48e8f7a-linux-x86_64/hacker-evolution",
+		"/media/DADOS/APASTA MATERIAL DE ESTUDO SISTEMA PARA INTERNET/Material vídeo aula/MATERIAL ESTUDO PARA PROJETO OIAPOQUE/HTML5 & CSS3/Aula 1/arquivos/receita.html",
+		"/media/DADOS/APASTA MATERIAL DE ESTUDO SISTEMA PARA INTERNET/Material vídeo aula/MATERIAL ESTUDO PARA PROJETO OIAPOQUE/HTML5 & CSS3/Aula 1/arquivos/css/style.css",
+		"/media/DADOS/APASTA MATERIAL DE ESTUDO SISTEMA PARA INTERNET/Material vídeo aula/MATERIAL ESTUDO PARA PROJETO OIAPOQUE/HTML5 & CSS3/Aula 1/arquivos/exercicio_1.html",
+		"/media/DADOS/APASTA MATERIAL DE ESTUDO SISTEMA PARA INTERNET/Material vídeo aula/MATERIAL ESTUDO PARA PROJETO OIAPOQUE/HTML5 & CSS3/Aula 1/arquivos/exercicio_2.html",
+		"/home/zick/bootstrap/img/glyphicons-halflings-white.png",
+		"/home/zick/bootstrap/img/glyphicons-halflings.png",
+		"/home/zick/projeto oiapoque/html5/html5.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/zick/projeto_oiapoque,/home/zick/pojeto-oiapoque"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"nav-list",
+			"bs-docs",
+			"text-align",
+			"text",
+			"justify",
+			"styler",
+			".span",
+			"span",
+			"brand",
+			"body",
+			"container",
+			"navbar-fixed-top",
+			"navbar",
+			"navbar-fixed-top",
+			"navbar",
+			"body",
+			"p",
+			"font-size",
+			"carousel",
+			"p",
+			"container",
+			"justify",
+			"nav",
+			"}\n",
+			"footer",
+			";",
+			"solid",
+			"index"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 205.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
