@@ -1,12 +1,11 @@
-.nav-list , ul{
-  border: solid 1px;
+.nav-list { 
+  border: 1px solid rgba(0,0,0,0.3);
   border-radius: 5px;
 }
 #top {
   margin-top: 60px;
 }
 .logo{
-  margin-top:-40px; 
   width: 136px;
   height: 95px;
 }
@@ -124,7 +123,7 @@
 }
 
 /* Slider */
-#content-slider {
+#content-slider{
   width: 460px;
   height: 316px;
   float: right;
@@ -198,33 +197,55 @@ figcaption{
   position: relative;
   width: 300px;
 }
+iframe{
+  width:400px; 
+  height:300px;
+  float: left;
+  border: 5px solid rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0 87px 30px -85px rgba(0, 0, 0, 0.7);
+     -moz-box-shadow: 0 87px 30px -85px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 87px 30px -85px rgba(0, 0, 0, 0.7);
+}
+.mapa{
+  padding-right: 90px;
+  margin-right: 20px;
+}
+.span9{
+  margin-top: -20px
+}
 .span10, .texto{
+  padding-left: 40px;
   float: center;
 }
 
 .span10 h1{
   text-align: center;
 }
-
+.footer{
+  height: 100px;
+}
 #footer{
   color:#000;
   height:100px;
   width:100%;
-  margin-bottom: 0px;
+  
 }
 footer {
   padding: 20px 0 80px;
   background-color: #fede10;
-  background-image: -webkit-radial-gradient(50% -70%, circle farthest-side, #ffffee, rgba(255, 255, 255, 0) 80%);
-  background-image:    -moz-radial-gradient(50% -70%, circle farthest-side, #ffffee, rgba(255, 255, 255, 0) 80%);
-  background-image:     -ms-radial-gradient(50% -70%, circle farthest-side, #ffffee, rgba(255, 255, 255, 0) 80%);
-  background-image:      -o-radial-gradient(50% -70%, circle farthest-side, #ffffee, rgba(255, 255, 255, 0) 80%);
-  background-image:         radial-gradient(50% -70%, circle farthest-side, #ffffee, rgba(255, 255, 255, 0) 80%);
+  background-image: -webkit-radial-gradient(66% -33%, circle farthest-side, #ffffee, rgba(255, 255, 255, 0) 30%);
+  background-image:    -moz-radial-gradient(66% -33%, circle farthest-side, #ffffee, rgba(255, 255, 255, 0) 30%);
+  background-image:     -ms-radial-gradient(66% -33%, circle farthest-side, #ffffee, rgba(255, 255, 255, 0) 30%);
+  background-image:      -o-radial-gradient(66% -33%, circle farthest-side, #ffffee, rgba(255, 255, 255, 0) 30%);
+  background-image:         radial-gradient(66% -33%, circle farthest-side, #ffffee, rgba(255, 255, 255, 0) 30%);
+}
+footer, ul{
+  
 }
 footer, h3 {
   font-size: 1.0em;
   color: #695c12;
-  margin-top: 33px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
   vertical-align: baseline;
 }
