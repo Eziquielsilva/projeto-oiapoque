@@ -7,13 +7,15 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-  <!-- Font Icons -->
-<link href="css/fonts.css" rel="stylesheet">
-    </head>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 <body>
-        <div class="container">
+<header class="container">
+    <img src="img/logo.png" alt="" class="logo-top" >
+</header>
+
+<div class="container">
         <header id="top" >
               <div class= "navbar navbar-inverse">
                     <nav class="navbar-inner">
@@ -24,44 +26,52 @@
                         <li><a href="turismo.html"><i class="icon-road icon-white"></i> Turismo</a></li>
                         <li><a href="galeria.html"><i class="icon-picture icon-white"></i> Galeria</a></li>
                       </ul>
-                      <form class="navbar-search pull-left">
-                        <input type="text" class="search-query" placeholder="Busca">
-                      </form>        
                     </nav>         
-
               </div>              
           </header>
-          <div class="container">
-            <!-- Jssor Slider Begin -->
-            <div id="slider1_container" style="display: none; position: relative; margin: 0 auto; width: 980px; height: 380px; overflow: hidden;">
-                ...
-            </div>
-            <!-- Jssor Slider End -->
-        </div>
-       
-          <!-- footer-->
-          <footer class="modal-footer" >
-            <div class="container">
-              <img class="logo-footer"  src="img/3.png" alt="">
-             <p>Este projeto foi desenvolvido por Eziquiel Da luz Silva <br> do 5º semestre 
-             do Curso de Tecnologia em Sistemas Para Internet Unisul<p>  
-            </div>
-           </footer> 
+        <article class="container">
+        <h1>Galeria</h1>
+        <p>Aqui conheça nossa galeria de fotos, um acervo que foi feito por varios colaboradores do site de varias pontos do Oiapoque.</p>
+        <div class="row-fluid">
+                
+                 <ul class="thumbnails">
+                    <li class="span4">
+                      <a href="#" class="thumbnail inner-border ">
+                    
+                        <img src="img/photo-1.jpg" alt="">
+                      </a>
+                      <a href="" class="thumbnail inner-border">
+                        <img src="img/photo-2.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="span4">
+                      <a href="#" class="thumbnail inner-border">
+                        
+                        <img src="img/photo-1.jpg" alt="">
+                        </a>
+                      <a href="" class="thumbnail inner-border">
+                        
+                        <img src="img/photo-3.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="span4">
+                      <a href="#" class="thumbnail inner-border">
+                        
+                        <img src="img/photo-1.jpg" alt="">
+                        </a>
+                      <a href="#" class="thumbnail inner-border">
+                        
+                        <img src="img/photo-4.jpg" alt="">
+                        </a>
+                    </li>
+                  </ul>
+                  </div>
+           </article>
+        <!-- footer-->
+ <footer class="modal-footer" >
+  <div class="container">
+  <p>Este projeto foi desenvolvido por Eziquiel Da luz Silva <br> do 5º semestre do Curso de Tecnologia em Sistemas Para Internet Unisul<p>  
   </div>
-  <script type="text/javascript" src="../js/jssor.slider.mini.js"></script>
-  <script>
-      jQuery(document).ready(function ($) {
-          var options = {
-              ..
-          };
-              
-          $("#slider1_container").css("display", "block");
-          var jssor_slider1 = new $JssorSlider$("slider1_container", options);
-          ...
-      });
-  </script>
-
-<script src="js/bootstrap.js"></script>
-</body>
-
+  </footer>  
+  </body>
 </html>
