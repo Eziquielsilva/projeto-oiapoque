@@ -7,11 +7,15 @@
   margin-top: 60px;
 }
 .logo-top{
-  margin-top: 10px;
+  margin-top: -60px;
   margin-left: 110px;
-  margin-bottom: -150px;
+  margin-bottom: 0px;
   width: 120px;
   height: 150px;
+  position: absolute;
+}
+.container {
+  box-shadow: 0px 0px 10px rgba(0,0,0,.5);
 }
 
 #mapa{
@@ -26,6 +30,9 @@
 
 p {
   text-align: justify;
+}
+.container {
+  box-shadow: 0px 0px 10px rgba(0,0,0,.5);
 }
 /* Animation */
 @-moz-keyframes cycle {
@@ -190,7 +197,8 @@ p {
 }
 #parte1{
   float: left;
-  text-indent: 50px
+  margin-left: 50px;
+  border: 1px solid rgba(0,0,0,.5);
 }
 #parte2 {
   text-indent: 50px;
@@ -229,7 +237,7 @@ div.menulateral{
   display: block;
 }
 
-iframe{
+iframe#mapa {
   width:400px; 
   height:300px;
   float: left;
@@ -268,7 +276,15 @@ section.inicial h1{
 .barralateral{
   margin-top: 20px;
   width: 200px;
+  margin-bottom: 90px;
   
+}
+.menulateral {
+  margin-bottom: 80px;
+  padding-bottom: 80px;
+}
+footer.modal-footer {
+  margin-top: 50px;
 }
 h1#Opk{
   display: inline;
@@ -299,9 +315,6 @@ footer.autor{
 footer, p{
   padding-left: 5px;
   padding-right: 20px;
-}
-footer .logo-footer {
-  float: left;
 }
 footer .disclaimer{
   font-size: 0.9em;
